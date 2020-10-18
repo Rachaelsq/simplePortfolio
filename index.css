@@ -9,22 +9,27 @@
 body {
 width: 100vw;
 height: 100vh;
-background-color: #4158D0;
-background-image: linear-gradient(180deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+/* background-color: #4158D0;
+background-image: linear-gradient(180deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+background-color: #cdcdcd;
+background-image: linear-gradient(180deg, #cdcdcd 0%, #000000 50%, #e4e4e4 100%);
+
+
 }
 
 #header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
-  letter-spacing: 4px;
+  font-size: 70px;
+  letter-spacing: 34px;
+  width: 100%;
 }
 
 h1 {
   color:#FEC874;
-  font-family: 'Oxanium', cursive;
-  margin-bottom: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 10px;
 }
 
 /* start navbar */
@@ -32,7 +37,7 @@ h1 {
 #navbar {
   list-style-type: none;
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,25 +48,29 @@ h1 {
 }
 
 li {
-  display: inline;
+  justify-content: center;
+  align-items: center;
 }
 
 
-
 a {
-  padding: 8px;
+  padding: 88px;
   text-decoration: none;
   color: white;
   font-family: 'Roboto Mono', monospace;
   font-size: 30px;
+  
 }
-
 
 
 li a:hover {
   background-color: #111;
+ 
 }
 
+.topnav {
+  
+}
 
 /* end navbar */
 
@@ -69,11 +78,22 @@ li a:hover {
 
 
  
-p {
+#bodyText {
   color: white;
   font-family: 'Roboto Mono', monospace;
+  display: flex;
+
+}
+
+.paragraph1 {
+  padding-right: 30px;
+  justify-content: left;
+  align-items: left;
+  max-width: 250px;
 }
 
 
 
-
+/* #footer {
+  margin-top: 300px;
+} */
