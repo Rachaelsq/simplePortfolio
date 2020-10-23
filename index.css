@@ -99,8 +99,20 @@ li a:hover {
   justify-content: left;
   align-items: left;
   max-width: 250px;
-  
+  font-family: 'Syne Mono', monospace;
+  box-shadow:5px 10px #ffffff;
 }
+
+
+
+.toolbox {
+  font-size: 70px;
+  flex-wrap: ;
+}
+
+
+
+
 
 
 
