@@ -110,33 +110,3 @@ li a:hover {
 
 
 
-
-.paragraph1 {
-  padding-right: 30px;
-  padding-right: 30px;
-  margin-right: 250px;
-  margin-left: 50px;
-  font-size: 70px;
-  justify-content: left;
-  align-items: left;
-  max-width: 250px;
-  font-family: 'Syne Mono', monospace;
-  box-shadow:5px 10px #ffffff;
-}
-
-
-
-.toolbox {
-  font-size: 70px;
-  flex-wrap: ;
-}
-
-
-
-
-
-
-
-/* #footer {
-  margin-top: 300px;
-} */
