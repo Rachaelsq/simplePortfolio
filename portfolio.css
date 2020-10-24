@@ -95,18 +95,56 @@ li a:hover {
   color: white;
   font-family: 'Roboto Mono', monospace;
   display: flex;
-  /* margin-left: 30px;
-  padding-right: 0px;
-  padding-right: 0px;
-  margin-right: 20px;
-  margin-left: 50px; */
+  margin-top: 300px;
+  display: flex;
   font-size: 70px;
   justify-content: center;
   align-items: center;
-  /* max-width: 250px; */
   font-family: 'Syne Mono', monospace;
   box-shadow:5px 5px 5px 0px #ffffff;
 }
 
 
+/* end of basic page styling */
 
+
+
+
+
+/* here are the portfolio cards below */
+/* divs are automatically block lvl elements */
+
+/* when you declare the parent container a flex grid container, the children automatically become grid children. ONLY direct children and not grandchildren */
+#parent {
+    background-color: rebeccapurple;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 250px 250px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+/* add another percentage or another "auto" to add another column to css grid. you can also add a fixed px size instead */
+/* instead of auto use 1fr 2fr 1fr if you want them to scale but want different fraction sizes */
+.child1 {
+    background-color: rosybrown;
+}
+
+.child2 {
+    background-color: navajowhite;
+}
+
+.child3 {
+    background-color: brown;
+}
+
+.child4 {
+    background-color: yellowgreen;
+}
+
+.child5 {
+    background-color: olive;
+}
+
+.child6 {
+    background-color:darkcyan ;
+}
