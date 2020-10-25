@@ -137,6 +137,7 @@ li a:hover {
 
 
 
-/* #footer {
-  margin-top: 300px;
-} */
+#footer {
+  margin-top: 30px;
+  color: white;
+}
