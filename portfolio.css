@@ -93,9 +93,9 @@ li a:hover {
 
 #webDev {
   color: white;
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
   display: flex;
-  margin-top: 300px;
+  /* margin-top: ; */
   display: flex;
   font-size: 70px;
   justify-content: center;
@@ -116,35 +116,77 @@ li a:hover {
 
 /* when you declare the parent container a flex grid container, the children automatically become grid children. ONLY direct children and not grandchildren */
 #parent {
-    background-color: rebeccapurple;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 250px 250px;
+    /* background-color: rebeccapurple; */
+    display:grid ;
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: 250px 250px; */
     margin-left: 20px;
     margin-right: 40px;
-}
-/* add another percentage or another "auto" to add another column to css grid. you can also add a fixed px size instead */
-/* instead of auto use 1fr 2fr 1fr if you want them to scale but want different fraction sizes */
-.child1 {
-    background-color: rosybrown;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
 }
 
+/* add another percentage or another "auto" to add another column to css grid. you can also add a fixed px size instead */
+/* instead of auto use 1fr 2fr 1fr if you want them to scale but want different fraction sizes */
+
+
+.card-img-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.child1 {
+    background-color: rgb(231, 231, 231);
+    font-family: 'Roboto Mono', monospace;
+    max-width: 400px;
+    border-radius: 25px;
+
+}
+
+
+
+
 .child2 {
-    background-color: navajowhite;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Roboto Mono', monospace;
+    max-width: 400px;
+    border-radius: 25px;
+
+
 }
 
 .child3 {
-    background-color: brown;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Roboto Mono', monospace;
+    max-width: 400px;
+    border-radius: 25px;
+
 }
 
 .child4 {
-    background-color: yellowgreen;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Roboto Mono', monospace;
+    max-width: 400px;
+    border-radius: 25px;
+
 }
 
 .child5 {
-    background-color: olive;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Roboto Mono', monospace;
+    max-width: 400px;
+    border-radius: 25px;
+
 }
 
 .child6 {
-    background-color:darkcyan ;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Roboto Mono', monospace;
+    max-width: 400px;
+    border-radius: 25px;
 }
