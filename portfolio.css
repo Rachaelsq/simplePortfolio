@@ -95,13 +95,14 @@ li a:hover {
   color: white;
   /* font-family: 'Roboto Mono', monospace; */
   display: flex;
-  /* margin-top: ; */
+  margin-top: 200px ;
   display: flex;
   font-size: 70px;
   justify-content: center;
   align-items: center;
   font-family: 'Syne Mono', monospace;
   box-shadow:5px 5px 5px 0px #ffffff;
+
 }
 
 
@@ -112,81 +113,49 @@ li a:hover {
 
 
 /* here are the portfolio cards below */
-/* divs are automatically block lvl elements */
-
-/* when you declare the parent container a flex grid container, the children automatically become grid children. ONLY direct children and not grandchildren */
-#parent {
-    /* background-color: rebeccapurple; */
-    display:grid ;
-    /* grid-template-columns: auto auto auto;
-    grid-template-rows: 250px 250px; */
-    margin-left: 20px;
-    margin-right: 40px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-
-}
-
-/* add another percentage or another "auto" to add another column to css grid. you can also add a fixed px size instead */
-/* instead of auto use 1fr 2fr 1fr if you want them to scale but want different fraction sizes */
-
-
-.card-img-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
-
-.child1 {
-    background-color: rgb(231, 231, 231);
-    font-family: 'Roboto Mono', monospace;
-    max-width: 400px;
-    border-radius: 25px;
-
-}
-
-
-
-
-.child2 {
-    background-color: rgb(231, 231, 231);
-    font-family: 'Roboto Mono', monospace;
-    max-width: 400px;
-    border-radius: 25px;
+#container {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 70%;
 
 
 }
 
-.child3 {
-    background-color: rgb(231, 231, 231);
-    font-family: 'Roboto Mono', monospace;
-    max-width: 400px;
-    border-radius: 25px;
+.cardImg {
+ 
+  border-radius: 10px;
+  min-width: 50%;
+  max-width: 70%;
+}
+
+.cardHeader {
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 5px;
+  margin-top: 10px;
+ 
+}
+
+.cardParagraph {
+  font-family: 'Roboto Mono', monospace;
+  padding-right: 10px;
+  padding-left: 10px;
 
 }
 
-.child4 {
-    background-color: rgb(231, 231, 231);
-    font-family: 'Roboto Mono', monospace;
-    max-width: 400px;
-    border-radius: 25px;
-
-}
-
-.child5 {
-    background-color: rgb(231, 231, 231);
-    font-family: 'Roboto Mono', monospace;
-    max-width: 400px;
-    border-radius: 25px;
-
-}
-
-.child6 {
-    background-color: rgb(231, 231, 231);
-    font-family: 'Roboto Mono', monospace;
-    max-width: 400px;
-    border-radius: 25px;
+.cardButton {
+padding: 5px 5px 5px 5px;
+margin: 30px 5px 15px 5px;
+font-family: 'Roboto Mono', monospace;
+box-shadow: 0 5px 40px -20px rgba(0,0,0,.4);
 }
