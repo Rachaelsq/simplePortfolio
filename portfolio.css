@@ -5,6 +5,36 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body,
+html {
+  background-color: #e6e6e6;
+}
+
+body {
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* end css reset \\\\\\\\\\\\\\ */
+
+
   
 body {
 width: 100vw;
@@ -19,8 +49,7 @@ background-image: url('https://intuitiveharmonymedicine.com/wp-content/uploads/2
 
 #header {
   display: flex;
-  /* justify-content: left;
-  align-items: ; */
+
   font-size: 40px;
   letter-spacing: 0px;
   width: 20%;
@@ -48,10 +77,7 @@ h1 {
 
 }
 
-li {
-  /* justify-content: centert;
-  align-items: center; */
-}
+
 
 
 a {
@@ -78,10 +104,6 @@ li a:hover {
 }
 
 /* end navbar */
-
-
-
-
  
 #rachael {
   color: white;
@@ -114,48 +136,48 @@ li a:hover {
 
 /* here are the portfolio cards below */
 
-
-
-#container {
-  background: white;
+/* #entireCardContainer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
   align-items: center;
-  font-family: 'Roboto Mono', monospace;
-  margin-left: 40px;
-  margin-right: 40px;
+  justify-content: center;
+} */
+
+#card-img-id {
   border-radius: 10px;
-  overflow: hidden;
-  max-width: 70%;
-
-
 }
 
-.cardImg {
- 
+/* .card-text {
+  font-family: 'Roboto Mono', monospace;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}  */
+
+h3 {
+  font-family: 'Syne Mono', monospace;
+  border-bottom: 3px solid white;
+}
+
+#cardCss {
+  background-color: rgba(3, 4, 6, 0.7);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 10px;
-  min-width: 50%;
-  max-width: 70%;
-}
-
-.cardHeader {
-  font-family: 'Roboto Mono', monospace;
-  margin-bottom: 5px;
-  margin-top: 10px;
- 
-}
-
-.cardParagraph {
-  font-family: 'Roboto Mono', monospace;
-  padding-right: 10px;
-  padding-left: 10px;
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  
 
 }
 
-.cardButton {
-padding: 5px 5px 5px 5px;
-margin: 30px 5px 15px 5px;
-font-family: 'Roboto Mono', monospace;
-box-shadow: 0 5px 40px -20px rgba(0,0,0,.4);
+
+.btn {
+  font-family: 'Syne Mono', monospace;
+}
+
+.col-lg {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
